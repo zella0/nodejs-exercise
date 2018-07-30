@@ -1,0 +1,26 @@
+{
+  "name": "node-ecosystem-project",
+  "version": "1.0.0",
+  "description": "The goal of this project is to demonstrate your understanding of the basic node ecosystem. (Note - The modules we are installing are purely for practice and won't need to be installed in projects going forwards unless we need them) * Create a new package.json file * Install the [Moment](https://www.npmjs.com/package/moment) module * Install [Mocha](https://www.npmjs.com/package/mocha) as a dev dependency * Require Moment in Main.js and console.log the output * Run your project `node main.js`",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/node-ecosystem-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/node-ecosystem-project/issues"
+  },
+  "homepage": "https://github.com/gSchool/node-ecosystem-project#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
